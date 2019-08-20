@@ -47,6 +47,8 @@ public class AppTest
         assertEquals(15,app.BlackJack(15,10));
         assertEquals(21,app.BlackJack(10,21));
         assertEquals(0,app.BlackJack(25,22));
+        assertEquals(5,app.BlackJack(5,-5));
+        assertEquals(0,app.BlackJack(-1,-5));
     }
 
 }
