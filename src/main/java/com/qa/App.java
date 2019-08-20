@@ -13,9 +13,12 @@ public class App {
     return a;
     }
 
-    public static void main( String[] args ) {
+    public String sentence(String a, String b){
+        return b;
+    }
+ //   public static void main( String[] args ) {
 
-        }
+  //      }
 
     }
 
