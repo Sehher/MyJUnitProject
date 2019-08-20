@@ -41,5 +41,11 @@ public class AppTest
         assertEquals("b", app.sentence("c","b"));
     }
 
+    @Test
+    public void testBlackJack(){
+        app = new App();
+        assertEquals(15,app.BlackJack(15,10));
+    }
+
 }
 
