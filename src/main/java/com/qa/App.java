@@ -25,11 +25,11 @@ public class App {
         int diff1 = 21 - num1;
         int diff2 = 21 - num2;
 
-        // if (num1 > 21 & num2 >21) {
-        //    System.out.println("Nope");}
+        if (num1 > 21 & num2 >21) {
+            return 0;}
 
-        //else if (num1 < 0 & num2 < 0) {
-        //   System.out.println("Nope");
+        else if (num1 < 0 & num2 < 0) {
+           return 0;}
 
         // else {System.out.println("carry on");}
 

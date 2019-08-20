@@ -45,6 +45,8 @@ public class AppTest
     public void testBlackJack(){
         app = new App();
         assertEquals(15,app.BlackJack(15,10));
+        assertEquals(21,app.BlackJack(10,21));
+        assertEquals(0,app.BlackJack(25,22));
     }
 
 }
